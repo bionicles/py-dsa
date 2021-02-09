@@ -5,4 +5,4 @@
 
 1. compare vs strict compare (page 5)
 
-## [Algorithms by Jeff Ericson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
+## [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
