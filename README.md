@@ -5,4 +5,5 @@
 ## Solved in Python by Bion Howard
 ## MIT License to my solutions
 
-1. compare vs strict compare (page 5)
+1. Fundamentals
+    - [x] setting and swapping

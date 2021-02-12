@@ -25,10 +25,12 @@ def strict_compare(a, b):
     return a == b
 
 
-if __name__ == "__main__":
+def test_compare():
     a = 2
     b = "2"
-    print(f"a: {type(a)} = {a}")
-    print(f"b: {type(b)} = {b}")
-    print(f"compare(a,b)", compare(a, b))
-    print(f"strict_compare(a,b)", strict_compare(a, b))
+    # print(f"a: {type(a)} = {a}")
+    # print(f"b: {type(b)} = {b}")
+    assert compare(a, b)
+    assert not strict_compare(a, b)
+    # print(f"compare(a, b)", compare(a, b))
+    # print(f"strict_compare(a,b)", strict_compare(a, b))
